@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://asepss07.github.io/ncep-script-note/for-loop-catat-argumen-batch-script/",
+            "url": "https://asepss07.github.io/ncep-script-note/for-loop-catat-argumen-batch-script/",
+            "title": "For Loop Catat Argumen - Batch Script",
+            "summary": " ::set /a jumArg=0 :dbginfo ECHO Debug info = %debug_info% for %%i in (%*) do (set /a jumArg+=1) ECHO Jum Argumen = %jumArg%&hellip;",
+            "content_html": "<div>\n<div><code>::set /a jumArg=0</code></div>\n<div><code>:dbginfo</code></div>\n<div><code>ECHO Debug info     = %debug_info%</code></div>\n<div><code>for %%i in (%*) do (set /a jumArg+=1)</code></div>\n<div><code>ECHO Jum Argumen    = %jumArg%</code></div>\n<div><code>IF NOT -%1-==-- ECHO Argumen-1      = %1</code></div>\n<div><code>IF NOT -%2-==-- ECHO Argumen-2      = %2</code></div>\n<div><code>IF NOT -%3-==-- ECHO Argumen-3      = %3</code></div>\n<div><code>IF NOT -%4-==-- ECHO Argumen-4      = %4</code></div>\n<div><code>IF NOT -%5-==-- ECHO Argumen-5      = %5</code></div>\n<div><code>IF NOT -%6-==-- ECHO Argumen-6      = %6</code></div>\n<div><code>IF NOT -%7-==-- ECHO Argumen-7      = %7</code></div>\n<div><code>IF NOT -%8-==-- ECHO Argumen-8      = %8</code></div>\n<div><code>IF NOT -%9-==-- ECHO Argumen-9      = %9</code></div>\n<div><code>::IF %errorlevel% NEQ 0 (ECHO ERROR..!!! Kesalahan terjadi fungsi :debuginfo ECHO ErrorLevel pada: %errorlevel%)</code></div>\n</div>",
+            "author": {
+                "name": "NCEP"
+            },
+            "tags": [
+                   "Batch Script"
+            ],
+            "date_published": "2022-01-06T21:22:44+07:00",
+            "date_modified": "2022-01-06T21:23:42+07:00"
+        },
+        {
             "id": "https://asepss07.github.io/ncep-script-note/start-programsoftware-batch-script/",
             "url": "https://asepss07.github.io/ncep-script-note/start-programsoftware-batch-script/",
             "title": "START Program/Software - Batch Script ",
@@ -22,7 +37,7 @@
                    "Batch Script"
             ],
             "date_published": "2022-01-06T20:25:15+07:00",
-            "date_modified": "2022-01-06T20:25:15+07:00"
+            "date_modified": "2022-01-06T21:16:43+07:00"
         },
         {
             "id": "https://asepss07.github.io/ncep-script-note/batch-for-loop/",
@@ -37,21 +52,6 @@
             ],
             "date_published": "2022-01-06T20:12:17+07:00",
             "date_modified": "2022-01-06T20:25:32+07:00"
-        },
-        {
-            "id": "https://asepss07.github.io/ncep-script-note/ppp/",
-            "url": "https://asepss07.github.io/ncep-script-note/ppp/",
-            "title": "ppp",
-            "summary": "hggf ",
-            "content_html": "<p>hggf</p>\n",
-            "author": {
-                "name": "NCEP"
-            },
-            "tags": [
-                   "CSharp"
-            ],
-            "date_published": "2021-12-24T18:52:30+07:00",
-            "date_modified": "2021-12-24T18:52:30+07:00"
         },
         {
             "id": "https://asepss07.github.io/ncep-script-note/popup-windows/",

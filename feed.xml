@@ -3,12 +3,49 @@
     <title>NCEP</title>
     <link href="https://asepss07.github.io/ncep-script-note/feed.xml" rel="self" />
     <link href="https://asepss07.github.io/ncep-script-note" />
-    <updated>2022-01-06T20:25:32+07:00</updated>
+    <updated>2022-01-06T21:23:42+07:00</updated>
     <author>
         <name>NCEP</name>
     </author>
     <id>https://asepss07.github.io/ncep-script-note</id>
 
+    <entry>
+        <title>For Loop Catat Argumen - Batch Script</title>
+        <author>
+            <name>NCEP</name>
+        </author>
+        <link href="https://asepss07.github.io/ncep-script-note/for-loop-catat-argumen-batch-script/"/>
+        <id>https://asepss07.github.io/ncep-script-note/for-loop-catat-argumen-batch-script/</id>
+            <category term="Batch Script"/>
+
+        <updated>2022-01-06T21:23:42+07:00</updated>
+            <summary>
+                <![CDATA[
+                     ::set /a jumArg=0 :dbginfo ECHO Debug info = %debug_info% for %%i in (%*) do (set /a jumArg+=1) ECHO Jum Argumen = %jumArg%&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div>
+<div><code>::set /a jumArg=0</code></div>
+<div><code>:dbginfo</code></div>
+<div><code>ECHO Debug info     = %debug_info%</code></div>
+<div><code>for %%i in (%*) do (set /a jumArg+=1)</code></div>
+<div><code>ECHO Jum Argumen    = %jumArg%</code></div>
+<div><code>IF NOT -%1-==-- ECHO Argumen-1      = %1</code></div>
+<div><code>IF NOT -%2-==-- ECHO Argumen-2      = %2</code></div>
+<div><code>IF NOT -%3-==-- ECHO Argumen-3      = %3</code></div>
+<div><code>IF NOT -%4-==-- ECHO Argumen-4      = %4</code></div>
+<div><code>IF NOT -%5-==-- ECHO Argumen-5      = %5</code></div>
+<div><code>IF NOT -%6-==-- ECHO Argumen-6      = %6</code></div>
+<div><code>IF NOT -%7-==-- ECHO Argumen-7      = %7</code></div>
+<div><code>IF NOT -%8-==-- ECHO Argumen-8      = %8</code></div>
+<div><code>IF NOT -%9-==-- ECHO Argumen-9      = %9</code></div>
+<div><code>::IF %errorlevel% NEQ 0 (ECHO ERROR..!!! Kesalahan terjadi fungsi :debuginfo ECHO ErrorLevel pada: %errorlevel%)</code></div>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>START Program/Software - Batch Script </title>
         <author>
@@ -18,7 +55,7 @@
         <id>https://asepss07.github.io/ncep-script-note/start-programsoftware-batch-script/</id>
             <category term="Batch Script"/>
 
-        <updated>2022-01-06T20:25:15+07:00</updated>
+        <updated>2022-01-06T21:16:43+07:00</updated>
             <summary>
                 <![CDATA[
                     @ECHO OFF Echo Buka kalkulator START /wait "demo" calc.exe Echo Selesai Examples Run a minimised Login script: START "My Login Script" /Min Login.cmd&hellip;
@@ -65,28 +102,6 @@ for /l %%x in (1, 1, 100) do (
    echo %%x
    copy %%x.txt z:\whatever\etc
 )</p>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>ppp</title>
-        <author>
-            <name>NCEP</name>
-        </author>
-        <link href="https://asepss07.github.io/ncep-script-note/ppp/"/>
-        <id>https://asepss07.github.io/ncep-script-note/ppp/</id>
-            <category term="CSharp"/>
-
-        <updated>2021-12-24T18:52:30+07:00</updated>
-            <summary>
-                <![CDATA[
-                    hggf 
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>hggf</p>
 
             ]]>
         </content>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>NCEP</title>
+    <link href="https://asepss07.github.io/ncep-script-note/feed.xml" rel="self" />
+    <link href="https://asepss07.github.io/ncep-script-note" />
+    <updated>2022-01-06T20:25:32+07:00</updated>
+    <author>
+        <name>NCEP</name>
+    </author>
+    <id>https://asepss07.github.io/ncep-script-note</id>
+
+    <entry>
+        <title>START Program/Software - Batch Script </title>
+        <author>
+            <name>NCEP</name>
+        </author>
+        <link href="https://asepss07.github.io/ncep-script-note/start-programsoftware-batch-script/"/>
+        <id>https://asepss07.github.io/ncep-script-note/start-programsoftware-batch-script/</id>
+            <category term="Batch Script"/>
+
+        <updated>2022-01-06T20:25:15+07:00</updated>
+            <summary>
+                <![CDATA[
+                    @ECHO OFF Echo Buka kalkulator START /wait "demo" calc.exe Echo Selesai Examples Run a minimised Login script: START "My Login Script" /Min Login.cmd&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <pre><code>@ECHO OFF</code><br><code>Echo Buka kalkulator
+START /wait "demo" calc.exe
+Echo Selesai</code></pre>
+<p><strong>Examples</strong></p>
+<p>Run a minimised Login script:<br><code><span class="code"> START "My Login Script" /Min Login.cmd</span></code></p>
+<p>Start a program and wait for it to complete before continuing:<br><code><span class="code"> START "" /wait autocad.exe</span></code></p>
+<p>Open a file with a particular program<span class="code">:<br><code>START "" "C:\Program Files\Microsoft Office\Winword.exe" "D:\Docs\demo.txt"</code></span></p>
+<p>Open Windows Explorer and list the files in the current folder (.) :<br><code><span class="code">C:\any\old\directory&gt; START .</span></code></p>
+<p>Open a webpage in the default browser, note the protocol is required (https://)<br><code><span class="code">START https://nceptutorial.com</span></code></p>
+<p>Open a webpage in Microsoft Edge:<br><code><span class="code">%windir%\<a href="https://ss64.com/nt/explorer.html">explorer.exe</a> microsoft-edge:https://nceptutorial.com</span></code></p>
+<p><br>or with a hard-coded path:<br><code><span class="code">"C:\Program Files (x86)\Microsoft Edge\Application\msedge.exe" https://ss64.com</span></code></p>
+<p>Connect to a new printer: (this will setup the print connection/driver )<br><code><span class="code">START \\print_server\printer_name</span></code><br><br>Start an application and specify where files will be saved (Working Directory):<br><code><span class="code">START /D C:\Documents\ /MAX "Maximised Notes" notepad.exe</span></code></p>
+<blockquote>
+<p class="quote">“Do not run; scorn running with thy heels” ~ Shakespeare, The Merchant of Venice</p>
+</blockquote>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Batch for loop</title>
+        <author>
+            <name>NCEP</name>
+        </author>
+        <link href="https://asepss07.github.io/ncep-script-note/batch-for-loop/"/>
+        <id>https://asepss07.github.io/ncep-script-note/batch-for-loop/</id>
+
+        <updated>2022-01-06T20:25:32+07:00</updated>
+            <summary>
+                <![CDATA[
+                    // batch for loop for /l %%x in (1, 1, 100) do ( echo %%x copy %%x.txt z:\whatever\etc ) 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>// batch for loop
+for /l %%x in (1, 1, 100) do (
+   echo %%x
+   copy %%x.txt z:\whatever\etc
+)</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>ppp</title>
+        <author>
+            <name>NCEP</name>
+        </author>
+        <link href="https://asepss07.github.io/ncep-script-note/ppp/"/>
+        <id>https://asepss07.github.io/ncep-script-note/ppp/</id>
+            <category term="CSharp"/>
+
+        <updated>2021-12-24T18:52:30+07:00</updated>
+            <summary>
+                <![CDATA[
+                    hggf 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>hggf</p>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Popup Windows</title>
+        <author>
+            <name>NCEP</name>
+        </author>
+        <link href="https://asepss07.github.io/ncep-script-note/popup-windows/"/>
+        <id>https://asepss07.github.io/ncep-script-note/popup-windows/</id>
+            <category term="Java Script"/>
+
+        <updated>2021-12-24T18:51:30+07:00</updated>
+            <summary>
+                <![CDATA[
+                     
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p><code></code></p>
+<div>
+<div><code>&lt;!DOCTYPE html</code></div>
+<div><code>  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;</code></div>
+<div><code>&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;</code></div>
+<br>
+<div><code>&lt;head&gt;</code></div>
+<div><code>  &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;</code></div>
+<div><code>  &lt;title&gt;Untitled Document&lt;/title&gt;</code></div>
+<div><code>  &lt;script&gt;</code></div>
+<div><code>    // Example: obj = findObj("image1");</code></div>
+<div><code>    function findObj(theObj, theDoc) {</code></div>
+<div><code>      var p, i, foundObj;</code></div>
+<div><code>      if (!theDoc) theDoc = document;</code></div>
+<br>
+<div><code>      if ((p = theObj.indexOf("?")) &gt; 0 &amp;&amp; parent.frames.length) {</code></div>
+<div><code>        theDoc = parent.frames[theObj.substring(p + 1)].document;</code></div>
+<div><code>        theObj = theObj.substring(0, p);</code></div>
+<div><code>      }</code></div>
+<br>
+<div><code>      if (!(foundObj = theDoc[theObj]) &amp;&amp; theDoc.all) foundObj = theDoc.all[theObj];</code></div>
+<br>
+<div><code>      for (i = 0; !foundObj &amp;&amp; i &lt; theDoc.forms.length; i++)</code></div>
+<div><code>        foundObj = theDoc.forms[i][theObj];</code></div>
+<br>
+<div><code>      for (i = 0; !foundObj &amp;&amp; theDoc.layers &amp;&amp; i &lt; theDoc.layers.length; i++)</code></div>
+<div><code>        foundObj = findObj(theObj, theDoc.layers[i].document);</code></div>
+<br>
+<div><code>      if (!foundObj &amp;&amp; document.getElementById) foundObj = document.getElementById(theObj);</code></div>
+<br>
+<div><code>      return foundObj;</code></div>
+<div><code>    }</code></div>
+<br>
+<div><code>    function messageWindow(title, msg)</code></div>
+<br>
+<div><code>    {</code></div>
+<br>
+<div><code>      var width = "300",</code></div>
+<div><code>        height = "125";</code></div>
+<br>
+<div><code>      var left = (screen.width / 2) - width / 2;</code></div>
+<br>
+<div><code>      var top = (screen.height / 2) - height / 2;</code></div>
+<br>
+<div><code>      var styleStr =</code></div>
+<div><code>        'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbar=no,resizable=no,copyhistory=yes,width=' +</code></div>
+<div><code>        width + ',height=' + height + ',left=' + left + ',top=' + top + ',screenX=' + left + ',screenY=' + top;</code></div>
+<br>
+<div><code>      var msgWindow = window.open("", "msgWindow", styleStr);</code></div>
+<br>
+<div><code>      var head = '&lt;head&gt;&lt;title&gt;' + title + '&lt;/title&gt;&lt;/head&gt;';</code></div>
+<br>
+<div><code>      var body = '&lt;center&gt;' + msg +</code></div>
+<div><code>        '&lt;br&gt;&lt;p&gt;&lt;form&gt;&lt;input type="button" value="   Done   " onClick="self.close()"&gt;&lt;/form&gt;';</code></div>
+<br>
+<div><code>      msgWindow.document.write(head + body);</code></div>
+<br>
+<div><code>    }</code></div>
+<div><code>    var popUpWin = 0;</code></div>
+<br>
+<div><code>    function popUpWindow(URLStr, left, top, width, height)</code></div>
+<br>
+<div><code>    {</code></div>
+<br>
+<div><code>      if (popUpWin)</code></div>
+<br>
+<div><code>      {</code></div>
+<br>
+<div><code>        if (!popUpWin.closed) popUpWin.close();</code></div>
+<br>
+<div><code>      }</code></div>
+<br>
+<div><code>      popUpWin = open(URLStr, 'popUpWin',</code></div>
+<div><code>        'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=yes,width=' +</code></div>
+<div><code>        width + ',height=' + height + ',left=' + left + ', top=' + top + ',screenX=' + left + ',screenY=' + top + '');</code></div>
+<br>
+<div><code>    }</code></div>
+<div><code>  &lt;/script&gt;</code></div>
+<br><br>
+<div><code>&lt;/head&gt;</code></div>
+<br>
+<div><code>&lt;body&gt;</code></div>
+<div><code>  &lt;h1&gt;</code></div>
+<div><code>    Koleksi Java Script</code></div>
+<div><code>  &lt;/h1&gt;</code></div>
+<div><code>  &lt;p&gt;</code></div>
+<div><code>    &lt;input type="button" name="btn1" id="btn1" value="Pop up Windows"</code></div>
+<div><code>      onclick="popUpWindow('https://nceptutorial.com', 0, 0, 500, 500)" /&gt;</code></div>
+<div><code>    &lt;input type="button" name="btn2" id="btn2" value="Windows Message"</code></div>
+<div><code>      onclick="messageWindow('NCEP', 'Contoh message window')" /&gt;</code></div>
+<div><code>  &lt;/p&gt;</code></div>
+<div><code>  &lt;p&gt;&amp;nbsp;&lt;/p&gt;</code></div>
+<div><code>&lt;/body&gt;</code></div>
+<br>
+<div><code>&lt;/html&gt;</code></div>
+</div>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Actiona</title>
+        <author>
+            <name>NCEP</name>
+        </author>
+        <link href="https://asepss07.github.io/ncep-script-note/actiona/"/>
+        <id>https://asepss07.github.io/ncep-script-note/actiona/</id>
+            <category term="Actiona"/>
+
+        <updated>2021-12-24T18:44:48+07:00</updated>
+            <summary>
+                <![CDATA[
+                     Tombol function main() { var a = new QDialog(); var b = new QPushButton("Coucou", a); var c = new QDialog(a); var d&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <div class="post__toc">
+    <h3>Daftar Isi</h3>
+    <ul>
+      <li><a href="#label">Label</a></li><li><a href="#input-text">Input Text</a></li><li><a href="#tombol">Tombol</a></li><li><a href="#radio">Radio</a></li><li><a href="#checkbox">CheckBox</a></li>
+    </ul>
+  </div>
+  
+
+    <h2 id="label">
+      Label
+    </h2>
+<pre class="line-numbers  language-javascript"><code>var a = new QDialog();
+ 
+var layout = new QFormLayout(); //Création d'un layout pour que ce soit plus jolie
+a.setLayout(layout); //Attribue le layout à a
+ 
+var b = new QLabel("Hello"); //Affiche un QLabel
+b.setText(b.text + " world"); //Selectionne le contenu du QLabel et rajoute du texte à la fin
+ 
+b.minimumSize = new QSize(500, 500); //Gestion de sa taille, attention il est contenu dans un layout
+b.maximumSize = new QSize(500, 500);
+ 
+b.alignment = Qt.AlignBottom | Qt.AlignRight; //Gestion de l'alignement du texte
+ 
+b.textInteractionFlags = Qt.TextSelectableByMouse; //Il est ainsi possible de sélectionner le texte à la souris
+ 
+layout.addRow(b); //Attribut le QLabel au layout
+ 
+a.exec();</code></pre>
+
+    <h2 id="input-text">
+      Input Text
+    </h2>
+<div></div>
+
+    <h2 id="tombol">
+      Tombol
+    </h2>
+<pre class="line-numbers  language-javascript"><code>function main() {
+	var a = new QDialog();
+	var b = new QPushButton("Coucou", a);
+ 
+	var c = new QDialog(a);
+	var d = new QPushButton("Barre toi", c);
+ 
+	b.clicked.connect(c, show); //clicked est un signal emis par le premier QPushButton qui execute la fonction show, il envoie le QDialog c en paramètre pour qu'il puisse être montré par la fonction
+ 
+	d.clicked.connect(c, hide); //clicked est un signal emis par le deuxième QPushButton qui execute la fonction hide, il envoie le QDialog c en paramètre pour qu'il puisse être caché par la fonction
+ 
+	a.exec();
+}
+ 
+function show() {
+	this.show();
+}
+ 
+function hide() {
+	this.hide();
+}
+ 
+main();</code></pre>
+
+    <h2 id="radio">
+      Radio
+    </h2>
+<pre class="line-numbers  language-javascript"><code>var a = new QDialog();
+var layout = new QFormLayout(); //Création d'un layout pour éviter que les radiobuttons ne se superpose
+a.setLayout(layout); //Attribue le layout à a
+ 
+var tabIntRadio = ["Radiobutton 0", "Radiobutton 1", "Radiobutton 2", "Radiobutton 3", "Radiobutton 4"]; //Tableau contenant le libelé des boutons radio
+var tabRadio = []; //Tableau les objets QRadioButton
+ 
+for (var i = 0; i &lt; tabIntRadio.length; i++) { //Boucle qui va pour chaque libelé
+	tabRadio[i] = new QRadioButton(tabIntRadio[i]); //Créer un objet QRadioButton ce libelé
+	layout.addRow(tabRadio[i]); //Attribuer les radiobuttons au layout
+ 
+	tabRadio[i].toggled.connect(tabRadio[i], function () { //Lors du click sur un QRadioButton, test pour voir si il est checké
+		if (this.checked === true)
+			Console.print(this.text);
+	});
+}
+ 
+a.exec();</code></pre>
+
+    <h2 id="checkbox">
+      CheckBox
+    </h2>
+<pre class="line-numbers  language-javascript"><code>var a = new QDialog();
+var layout = new QFormLayout(); //Création d'un layout pour éviter que les checkbox ne se superpose
+a.setLayout(layout); //Attribue le layout à a
+ 
+var b = new QCheckBox("Checkbox etat 0");
+b.tristate = true;
+var c = new QCheckBox("Checkbox etat 1"); 
+c.tristate = true;
+var d = new QCheckBox("Checkbox etat 2");
+d.tristate = true;
+ 
+c.setCheckState(Qt.PartiallyChecked);
+d.setCheckState(Qt.Checked);
+ 
+Console.print(b.checkState()); //Affiche l'état de la checkbox dans la console
+Console.print(c.checkState());
+Console.print(d.checkState());
+ 
+layout.addRow(b); //Attribut les checkbox au layout
+layout.addRow(c);
+layout.addRow(d);
+ 
+a.exec();</code></pre>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Ruby Test</title>
+        <author>
+            <name>NCEP</name>
+        </author>
+        <link href="https://asepss07.github.io/ncep-script-note/ruby-test/"/>
+        <id>https://asepss07.github.io/ncep-script-note/ruby-test/</id>
+            <category term="Ruby"/>
+
+        <updated>2021-12-17T04:22:27+07:00</updated>
+            <summary>
+                <![CDATA[
+                     // Example: obj = findObj("image1"); function findObj(theObj, theDoc) { var p, i, foundObj; if(!theDoc) theDoc = document; if( (p = theObj.indexOf("?")) >&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><script type="text/javascript">
+// Example: obj = findObj("image1");
+function findObj(theObj, theDoc)
+{
+  var p, i, foundObj;
+  if(!theDoc) theDoc = document;
+  if( (p = theObj.indexOf("?")) > 0 && parent.frames.length)
+  {
+    theDoc = parent.frames[theObj.substring(p+1)].document;
+    theObj = theObj.substring(0,p);
+  }
+  if(!(foundObj = theDoc[theObj]) && theDoc.all) foundObj = theDoc.all[theObj];
+  for (i=0; !foundObj && i < theDoc.forms.length; i++) 
+    foundObj = theDoc.forms[i][theObj];
+for(i=0; !foundObj && theDoc.layers && i < theDoc.layers.length; i++) 
+    foundObj = findObj(theObj,theDoc.layers[i].document);
+if(!foundObj && document.getElementById) foundObj = document.getElementById(theObj);
+return foundObj;
+}
+function messageWindow(title, msg)
+{
+  var width="300", height="125";
+  var left = (screen.width/2) - width/2;
+  var top = (screen.height/2) - height/2;
+  var styleStr = 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbar=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+',top='+top+',screenX='+left+',screenY='+top;
+  var msgWindow = window.open("","msgWindow", styleStr);
+  var head = '<head><title>'+title+'</title></head>';
+  var body = '<center>'+msg+'<br><p><form><input type="button" value="   Done   " onClick="self.close()"></form>';
+  msgWindow.document.write(head + body);
+}
+var popUpWin=0;
+function popUpWindow(URLStr, left, top, width, height)
+{
+  if(popUpWin)
+  {
+    if(!popUpWin.closed) popUpWin.close();
+  }
+  popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top+'');
+}
+</script>
+
+
+</div>
+<pre class="line-numbers  language-html"><code>function messageWindow(title, msg)
+{
+  var width="300", height="125";
+  var left = (screen.width/2) - width/2;
+  var top = (screen.height/2) - height/2;
+  var styleStr = 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbar=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+',top='+top+',screenX='+left+',screenY='+top;
+  var msgWindow = window.open("","msgWindow", styleStr);
+  var head = '&lt;head&gt;&lt;title&gt;'+title+'&lt;/title&gt;&lt;/head&gt;';
+  var body = '&lt;center&gt;'+msg+'&lt;br&gt;&lt;p&gt;&lt;form&gt;&lt;input type="button" value="   Done   " onClick="self.close()"&gt;&lt;/form&gt;';
+  msgWindow.document.write(head + body);
+}
+</code></pre>
+<hr class="separator separator--dots" />
+<div><input type="button" align="center" value = "Test" id="id1" onclick="alert('ho')" </></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Java Script PopUp</title>
+        <author>
+            <name>NCEP</name>
+        </author>
+        <link href="https://asepss07.github.io/ncep-script-note/java-script-popup/"/>
+        <id>https://asepss07.github.io/ncep-script-note/java-script-popup/</id>
+            <category term="Java Script"/>
+
+        <updated>2021-12-17T04:17:39+07:00</updated>
+            <summary>
+                <![CDATA[
+                    var popUpWin=0; function popUpWindow(URLStr, left, top, width, height) { if(popUpWin) { if(!popUpWin.closed) popUpWin.close(); } popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top+''); } 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p class="align-left"><code>var popUpWin=0;<br>function popUpWindow(URLStr, left, top, width, height)<br>{<br>  if(popUpWin)<br>{<br>    if(!popUpWin.closed) popUpWin.close();<br>  }<br>  popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top+'');<br>}</code></p>
+<hr>
+<p class="align-center">  <input id="btn1" name="btn1" type="button" value="Pop up Windows"></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>SketchUp Link</title>
+        <author>
+            <name>NCEP</name>
+        </author>
+        <link href="https://asepss07.github.io/ncep-script-note/sketchup-link/"/>
+        <id>https://asepss07.github.io/ncep-script-note/sketchup-link/</id>
+            <category term="SketchUp"/>
+
+        <updated>2021-12-16T05:06:26+07:00</updated>
+            <summary>
+                <![CDATA[
+                     Developer Center SketchUp Ruby API SketchUp SDK Extensions Developer Forum SketchUp Blog Forum Help Center Learn SketchUp 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <ul>
+<li class="footer-links__list-item"><a href="https://developer.sketchup.com" target="_blank" rel="noopener">Developer Center</a></li>
+<li class="footer-links__list-item"><a href="http://ruby.sketchup.com/" target="_blank" rel="noopener">SketchUp Ruby API</a></li>
+<li class="footer-links__list-item"><a href="https://extensions.sketchup.com/en/developer_center/sketchup_sdk" target="_blank" rel="noopener">SketchUp SDK</a></li>
+<li class="footer-links__list-item"><a href="https://extensions.sketchup.com/" target="_blank" rel="noopener">Extensions</a></li>
+<li class="footer-links__list-item"><a href="https://forums.sketchup.com/c/developers" target="_blank" rel="noopener">Developer Forum</a></li>
+<li><a href="https://blog.sketchup.com" target="_blank" rel="noopener">SketchUp Blog</a></li>
+</ul>
+<ul>
+<li class="footer-links__list-item"><a href="https://forums.sketchup.com" target="_blank" rel="noopener">Forum</a></li>
+<li class="footer-links__list-item"><a href="https://help.sketchup.com" target="_blank" rel="noopener">Help Center</a></li>
+<li><a href="https://learn.sketchup.com/" title="https://learn.sketchup.com/" target="_blank" rel="noopener noreferrer">Learn SketchUp</a></li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+</feed>
